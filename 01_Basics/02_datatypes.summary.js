@@ -47,3 +47,14 @@ console.log(typeof arr); // object
 console.log(typeof obj); // object
 console.log(typeof fun); // function
 
+
+/***************  Memory ******************/
+
+/*
+There are 2 types of memory:
+
+1. Stack (Primitive)
+2. Heap (Non Primitive)
+
+
+*/
