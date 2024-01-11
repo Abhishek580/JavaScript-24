@@ -47,7 +47,6 @@ console.log(typeof arr); // object
 console.log(typeof obj); // object
 console.log(typeof fun); // function
 
-
 /***************  Memory ******************/
 
 /*
@@ -58,3 +57,26 @@ There are 2 types of memory:
 
 
 */
+
+let name = 'abhishek'
+let name2 = name1
+name2 = 'noName'
+
+console.log(name1); // abhishek
+console.log(name2); // noName
+
+// the value of name1 did not changed because we got a copy of name1 from the stack and not the actal referance of the value.
+
+
+let userOne = {
+  name: "Abhishek",
+  upi: "abhi78@abc",
+};
+
+let userTwo = userOne;
+userTwo.name = "noName";
+
+console.log("userOne", userOne); // { name: 'noName', upi: 'abhi78@abc' }
+console.log("userTwo", userTwo); // { name: 'noName', upi: 'abhi78@abc' }
+
+// Note: we got refeeance from the origanl value from the heap.
