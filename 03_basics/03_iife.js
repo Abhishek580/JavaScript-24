@@ -33,7 +33,7 @@ phase in EC
 
 1. Global Execution -> this
 2. Memory creation phase
-    
 3. Execution phase
+
 
 */
