@@ -1,2 +1,2 @@
-# JavaScript-23
+# JavaScript-24
 JavaScript HandsOn
